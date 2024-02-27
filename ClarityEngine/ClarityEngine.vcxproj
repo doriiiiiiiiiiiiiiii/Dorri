@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{4c2a6c19-603e-49a8-be9c-4dc4dfcb0670}</ProjectGuid>
+    <RootNamespace>ClarityEngine</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)Bin\Release\</OutDir>
+    <IntDir>$(SolutionDir)Bin\Release\Objs\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)Bin\Debug\</OutDir>
+    <IntDir>$(SolutionDir)Bin\Debug\Objs\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir); $(SolutionDir)ClarityEngine\; $(SolutionDir)Libs\; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\DXTK\x64\Debug\; $(SolutionDir)Libs\TinyXML2\x64\Debug\;</AdditionalLibraryDirectories>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <LanguageStandard_C>stdc17</LanguageStandard_C>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <AdditionalIncludeDirectories>$(SolutionDir); $(SolutionDir)ClarityEngine\; $(SolutionDir)Libs\; %(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>
+      </SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)Libs\DXTK\x64\Release\; $(SolutionDir)Libs\TinyXML2\x64\Release\;</AdditionalLibraryDirectories>
+    </Link>
+    <Manifest>
+      <EnableDpiAwareness>false</EnableDpiAwareness>
+    </Manifest>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\System\CE_SystemObjects.h" />
+    <ClInclude Include="Core\System\Component\Animator\CE_Animator.h" />
+    <ClInclude Include="Core\System\Component\AudioPlayer\CE_AudioPlayer.h" />
+    <ClInclude Include="Core\System\Component\FileSystem\Binary\CE_BinLoad.h" />
+    <ClInclude Include="Core\System\Component\FileSystem\Binary\CE_BinSave.h" />
+    <ClInclude Include="Core\System\Component\FileSystem\XML\CE_LoadXML.h" />
+    <ClInclude Include="Core\System\Component\FileSystem\XML\CE_SaveXML.h" />
+    <ClInclude Include="Core\System\Component\Painter\CE_Painter.h" />
+    <ClInclude Include="Core\System\Component\SeedGenerator\CE_SeedGenerator.h" />
+    <ClInclude Include="Core\System\Component\Timer\CE_Delay.h" />
+    <ClInclude Include="Core\System\Utility\FlowControl\FlipFlop\CE_FlipFlop.h" />
+    <ClInclude Include="Core\System\Utility\ResNormalizer\CE_ResNormalizer.h" />
+    <ClInclude Include="Core\System\Utility\SeedGenerator\CE_SeedGenerator.h" />
+    <ClInclude Include="Core\System\Utility\FlowControl\Delay\CE_Delay.h" />
+    <ClInclude Include="Core\System\Component\Timer\CE_Timer.h" />
+    <ClInclude Include="Core\System\Component\VideoPlayer\CE_VideoPlayer.h" />
+    <ClInclude Include="Core\System\GameObject\CE_GameObject.h" />
+    <ClInclude Include="Core\System\Scene\CE_SceneBase.h" />
+    <ClInclude Include="Core\Manager\CE_Managers.h" />
+    <ClInclude Include="Core\Manager\CE_RedefinedDatas.h" />
+    <ClInclude Include="Core\Manager\CE_Singleton.h" />
+    <ClInclude Include="Core\Manager\GameManager\CE_GameManager.h" />
+    <ClInclude Include="Core\Manager\SceneManager\CE_SceneManager.h" />
+    <ClInclude Include="Core\Manager\GraphicsManager\CE_GraphicsManager.h" />
+    <ClInclude Include="Core\Manager\InputManager\CE_InputManager.h" />
+    <ClInclude Include="Core\Manager\Win32Manager\CE_Win32Manager.h" />
+    <ClInclude Include="Core\System\Utility\FlowControl\DoOnce\CE_DoOnce.h" />
+    <ClInclude Include="Core\System\Utility\FlowControl\Sequence\CE_Sequence.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Project\Scenes\FileIO_BIN.h" />
+    <ClInclude Include="Project\Scenes\FileIO_XML.h" />
+    <ClInclude Include="Project\SceneWizard.h" />
+    <ClInclude Include="Project\Scenes\DefaultScene.h" />
+    <ClInclude Include="Project\Scenes\EasingTest.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Core\System\Component\Animator\CE_Animator.cpp" />
+    <ClCompile Include="Core\System\Component\AudioPlayer\CE_AudioPlayer.cpp" />
+    <ClCompile Include="Core\System\Component\FileSystem\Binary\CE_BinLoad.cpp" />
+    <ClCompile Include="Core\System\Component\FileSystem\Binary\CE_BinSave.cpp" />
+    <ClCompile Include="Core\System\Component\FileSystem\XML\CE_LoadXML.cpp" />
+    <ClCompile Include="Core\System\Component\FileSystem\XML\CE_SaveXML.cpp" />
+    <ClCompile Include="Core\System\Component\Painter\CE_Painter.cpp" />
+    <ClCompile Include="Core\System\Component\SeedGenerator\CE_SeedGenerator.cpp" />
+    <ClCompile Include="Core\System\Component\Timer\CE_Delay.cpp" />
+    <ClCompile Include="Core\System\Utility\FlowControl\FlipFlop\CE_FlipFlop.cpp" />
+    <ClCompile Include="Core\System\Utility\ResNormalizer\CE_ResNormalizer.cpp" />
+    <ClCompile Include="Core\System\Utility\SeedGenerator\CE_SeedGenerator.cpp" />
+    <ClCompile Include="Core\System\Utility\FlowControl\Delay\CE_Delay.cpp" />
+    <ClCompile Include="Core\System\Component\Timer\CE_Timer.cpp" />
+    <ClCompile Include="Core\System\Component\VideoPlayer\CE_VideoPlayer.cpp" />
+    <ClCompile Include="Core\System\GameObject\CE_GameObject.cpp" />
+    <ClCompile Include="Core\System\Scene\CE_SceneBase.cpp" />
+    <ClCompile Include="Core\Manager\GameManager\CE_GameManager.cpp" />
+    <ClCompile Include="Core\Manager\SceneManager\CE_SceneManager.cpp" />
+    <ClCompile Include="Core\Manager\GraphicsManager\CE_GraphicsManager.cpp" />
+    <ClCompile Include="Core\Manager\InputManager\CE_InputManager.cpp" />
+    <ClCompile Include="Core\Manager\Win32Manager\CE_Win32Manager.cpp" />
+    <ClCompile Include="Core\System\Utility\FlowControl\DoOnce\CE_DoOnce.cpp" />
+    <ClCompile Include="Core\System\Utility\FlowControl\Sequence\CE_Sequence.cpp" />
+    <ClCompile Include="pch.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">pch.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|x64'">pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="Project\Scenes\FileIO_BIN.cpp" />
+    <ClCompile Include="Project\Scenes\FileIO_XML.cpp" />
+    <ClCompile Include="Project\SceneWizard.cpp" />
+    <ClCompile Include="Project\Scenes\DefaultScene.cpp" />
+    <ClCompile Include="Project\Scenes\EasingTest.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Project\Assets\Img\chara_no_anim.png" />
+    <Image Include="Project\Assets\Img\chara_walk.png" />
+    <Image Include="Project\Assets\Img\downNote.png" />
+    <Image Include="Project\Assets\Img\downPattern.png" />
+    <Image Include="Project\Assets\Img\knight_walk.png" />
+    <Image Include="Project\Assets\Img\leftNote.png" />
+    <Image Include="Project\Assets\Img\leftPattern.png" />
+    <Image Include="Project\Assets\Img\rightNote.png" />
+    <Image Include="Project\Assets\Img\rightPattern.png" />
+    <Image Include="Project\Assets\Img\TARGET_HAND.png" />
+    <Image Include="Project\Assets\Img\upNote.png" />
+    <Image Include="Project\Assets\Img\upPattern.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Project\Assets\Vid\Meguminohito.mp4" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,254 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Core\Manager\Win32Manager\CE_Win32Manager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\CE_Managers.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\CE_Singleton.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\CE_RedefinedDatas.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\GameManager\CE_GameManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\GraphicsManager\CE_GraphicsManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\CE_SystemObjects.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\InputManager\CE_InputManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\Painter\CE_Painter.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\GameObject\CE_GameObject.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Scene\CE_SceneBase.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\Manager\SceneManager\CE_SceneManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scenes\DefaultScene.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\Animator\CE_Animator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\AudioPlayer\CE_AudioPlayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Utility\SeedGenerator\CE_SeedGenerator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scenes\EasingTest.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\SceneWizard.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\FileSystem\XML\CE_SaveXML.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\VideoPlayer\CE_VideoPlayer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\FileSystem\XML\CE_LoadXML.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\FileSystem\Binary\CE_BinLoad.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scenes\FileIO_XML.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\FileSystem\Binary\CE_BinSave.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Project\Scenes\FileIO_BIN.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\Timer\CE_Timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Utility\FlowControl\Delay\CE_Delay.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Utility\FlowControl\DoOnce\CE_DoOnce.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Utility\FlowControl\Sequence\CE_Sequence.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Utility\ResNormalizer\CE_ResNormalizer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Utility\FlowControl\FlipFlop\CE_FlipFlop.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\Timer\CE_Delay.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Core\System\Component\SeedGenerator\CE_SeedGenerator.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="pch.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Manager\Win32Manager\CE_Win32Manager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Manager\GameManager\CE_GameManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Manager\GraphicsManager\CE_GraphicsManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Manager\InputManager\CE_InputManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\Painter\CE_Painter.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\GameObject\CE_GameObject.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Scene\CE_SceneBase.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\Manager\SceneManager\CE_SceneManager.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scenes\DefaultScene.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\Animator\CE_Animator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\AudioPlayer\CE_AudioPlayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Utility\SeedGenerator\CE_SeedGenerator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scenes\EasingTest.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\SceneWizard.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\FileSystem\XML\CE_SaveXML.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\VideoPlayer\CE_VideoPlayer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\FileSystem\XML\CE_LoadXML.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\FileSystem\Binary\CE_BinLoad.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scenes\FileIO_XML.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\FileSystem\Binary\CE_BinSave.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Project\Scenes\FileIO_BIN.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\Timer\CE_Timer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Utility\FlowControl\Delay\CE_Delay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Utility\FlowControl\DoOnce\CE_DoOnce.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Utility\FlowControl\Sequence\CE_Sequence.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Utility\ResNormalizer\CE_ResNormalizer.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Utility\FlowControl\FlipFlop\CE_FlipFlop.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\Timer\CE_Delay.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Core\System\Component\SeedGenerator\CE_SeedGenerator.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Project\Assets\Img\chara_no_anim.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\chara_walk.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\downNote.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\downPattern.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\knight_walk.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\leftNote.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\leftPattern.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\rightNote.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\rightPattern.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\TARGET_HAND.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\upNote.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="Project\Assets\Img\upPattern.png">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="Project\Assets\Vid\Meguminohito.mp4" />
+  </ItemGroup>
+</Project>

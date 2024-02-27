@@ -1,0 +1,10 @@
+<MyTest>
+    <add1>100</add1>
+    <add2>11.110000</add2>
+    <txt1>SampleText1</txt1>
+    <add3>0.123123</add3>
+    <txt2>SampleText2</txt2>
+    <add4>400</add4>
+    <txt3>SampleText3</txt3>
+    <SampleGroup value1="100" value2="11.110000" value3="0.123123" value4="400" txt="Example!"/>
+</MyTest>
